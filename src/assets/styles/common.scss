@@ -1,0 +1,41 @@
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.pointer {
+  cursor: pointer;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.bold-font {
+  font-weight: bold;
+}

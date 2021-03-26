@@ -1,9 +1,14 @@
 import Vue from "vue";
 import App from "./App.vue";
-import router from "./router";
-import store from "./store";
+import router from "./router/index";
+import store from "./store/index";
 import MetaInfo from 'vue-meta-info'
 import './plugins/element.js';
+
+// 公共样式
+import "./assets/styles/reset.scss";
+import "./assets/styles/mixin.scss";
+import "./assets/styles/common.scss";
 
 Vue.use(MetaInfo);
 Vue.config.productionTip = false;
