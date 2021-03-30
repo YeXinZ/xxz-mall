@@ -36,7 +36,6 @@ export default {
   background: #f1f1f1;
   box-shadow: 0px 1px 0px 0px #e6e6e6;
   .content {
-    width: $content-width;
     height: 100%;
     color: #666666;
   }

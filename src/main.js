@@ -10,6 +10,9 @@ import "./assets/styles/reset.scss";
 import "./assets/styles/mixin.scss";
 import "./assets/styles/common.scss";
 
+// 引入svg组件
+import "@/assets/icons";
+
 Vue.use(MetaInfo);
 Vue.config.productionTip = false;
 
